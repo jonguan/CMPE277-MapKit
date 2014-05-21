@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDF3000619177C97005BD9E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF3000519177C97005BD9E9 /* Foundation.framework */; };
+		FDF3000819177C97005BD9E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF3000719177C97005BD9E9 /* CoreGraphics.framework */; };
+		FDF3000A19177C97005BD9E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF3000919177C97005BD9E9 /* UIKit.framework */; };
+		FDF3001019177C97005BD9E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDF3000E19177C97005BD9E9 /* InfoPlist.strings */; };
+		FDF3001219177C97005BD9E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF3001119177C97005BD9E9 /* main.m */; };
+		FDF3001619177C97005BD9E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF3001519177C97005BD9E9 /* AppDelegate.m */; };
+		FDF3001919177C97005BD9E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF3001719177C97005BD9E9 /* Main.storyboard */; };
+		FDF3001C19177C97005BD9E9 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF3001B19177C97005BD9E9 /* MapViewController.m */; };
+		FDF3001F19177C97005BD9E9 /* RouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF3001E19177C97005BD9E9 /* RouteViewController.m */; };
+		FDF3002119177C97005BD9E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF3002019177C97005BD9E9 /* Images.xcassets */; };
+		FDF3002819177C97005BD9E9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF3002719177C97005BD9E9 /* XCTest.framework */; };
+		FDF3002919177C97005BD9E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF3000519177C97005BD9E9 /* Foundation.framework */; };
+		FDF3002A19177C97005BD9E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDF3000919177C97005BD9E9 /* UIKit.framework */; };
+		FDF3003219177C97005BD9E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDF3003019177C97005BD9E9 /* InfoPlist.strings */; };
+		FDF3003419177C97005BD9E9 /* CMPE277_MapKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF3003319177C97005BD9E9 /* CMPE277_MapKitTests.m */; };
+		FDF3003F19178020005BD9E9 /* MapPlotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF3003E19178020005BD9E9 /* MapPlotViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDF3002B19177C97005BD9E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDF3FFFA19177C97005BD9E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDF3000119177C97005BD9E9;
+			remoteInfo = "CMPE277-MapKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDF3000219177C97005BD9E9 /* CMPE277-MapKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CMPE277-MapKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF3000519177C97005BD9E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDF3000719177C97005BD9E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDF3000919177C97005BD9E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDF3000D19177C97005BD9E9 /* CMPE277-MapKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CMPE277-MapKit-Info.plist"; sourceTree = "<group>"; };
+		FDF3000F19177C97005BD9E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDF3001119177C97005BD9E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDF3001319177C97005BD9E9 /* CMPE277-MapKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CMPE277-MapKit-Prefix.pch"; sourceTree = "<group>"; };
+		FDF3001419177C97005BD9E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDF3001519177C97005BD9E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDF3001819177C97005BD9E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDF3001A19177C97005BD9E9 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		FDF3001B19177C97005BD9E9 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		FDF3001D19177C97005BD9E9 /* RouteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouteViewController.h; sourceTree = "<group>"; };
+		FDF3001E19177C97005BD9E9 /* RouteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouteViewController.m; sourceTree = "<group>"; };
+		FDF3002019177C97005BD9E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDF3002619177C97005BD9E9 /* CMPE277-MapKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CMPE277-MapKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF3002719177C97005BD9E9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FDF3002F19177C97005BD9E9 /* CMPE277-MapKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CMPE277-MapKitTests-Info.plist"; sourceTree = "<group>"; };
+		FDF3003119177C97005BD9E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDF3003319177C97005BD9E9 /* CMPE277_MapKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMPE277_MapKitTests.m; sourceTree = "<group>"; };
+		FDF3003D19178020005BD9E9 /* MapPlotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPlotViewController.h; sourceTree = "<group>"; };
+		FDF3003E19178020005BD9E9 /* MapPlotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPlotViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF3002319177C97005BD9E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF3002819177C97005BD9E9 /* XCTest.framework in Frameworks */,
+				FDF3002A19177C97005BD9E9 /* UIKit.framework in Frameworks */,
+				FDF3002919177C97005BD9E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF3FFFF19177C97005BD9E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF3000819177C97005BD9E9 /* CoreGraphics.framework in Frameworks */,
+				FDF3000A19177C97005BD9E9 /* UIKit.framework in Frameworks */,
+				FDF3000619177C97005BD9E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDF3000319177C97005BD9E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3000219177C97005BD9E9 /* CMPE277-MapKit.app */,
+				FDF3002619177C97005BD9E9 /* CMPE277-MapKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF3000419177C97005BD9E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3000519177C97005BD9E9 /* Foundation.framework */,
+				FDF3000719177C97005BD9E9 /* CoreGraphics.framework */,
+				FDF3000919177C97005BD9E9 /* UIKit.framework */,
+				FDF3002719177C97005BD9E9 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDF3000B19177C97005BD9E9 /* CMPE277-MapKit */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3001419177C97005BD9E9 /* AppDelegate.h */,
+				FDF3001519177C97005BD9E9 /* AppDelegate.m */,
+				FDF3001719177C97005BD9E9 /* Main.storyboard */,
+				FDF3001A19177C97005BD9E9 /* MapViewController.h */,
+				FDF3001B19177C97005BD9E9 /* MapViewController.m */,
+				FDF3001D19177C97005BD9E9 /* RouteViewController.h */,
+				FDF3001E19177C97005BD9E9 /* RouteViewController.m */,
+				FDF3002019177C97005BD9E9 /* Images.xcassets */,
+				FDF3000C19177C97005BD9E9 /* Supporting Files */,
+				FDF3003D19178020005BD9E9 /* MapPlotViewController.h */,
+				FDF3003E19178020005BD9E9 /* MapPlotViewController.m */,
+			);
+			path = "CMPE277-MapKit";
+			sourceTree = "<group>";
+		};
+		FDF3000C19177C97005BD9E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3000D19177C97005BD9E9 /* CMPE277-MapKit-Info.plist */,
+				FDF3000E19177C97005BD9E9 /* InfoPlist.strings */,
+				FDF3001119177C97005BD9E9 /* main.m */,
+				FDF3001319177C97005BD9E9 /* CMPE277-MapKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDF3002D19177C97005BD9E9 /* CMPE277-MapKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3003319177C97005BD9E9 /* CMPE277_MapKitTests.m */,
+				FDF3002E19177C97005BD9E9 /* Supporting Files */,
+			);
+			path = "CMPE277-MapKitTests";
+			sourceTree = "<group>";
+		};
+		FDF3002E19177C97005BD9E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDF3002F19177C97005BD9E9 /* CMPE277-MapKitTests-Info.plist */,
+				FDF3003019177C97005BD9E9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDF3FFF919177C97005BD9E9 = {
+			isa = PBXGroup;
+			children = (
+				FDF3000B19177C97005BD9E9 /* CMPE277-MapKit */,
+				FDF3002D19177C97005BD9E9 /* CMPE277-MapKitTests */,
+				FDF3000419177C97005BD9E9 /* Frameworks */,
+				FDF3000319177C97005BD9E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF3000119177C97005BD9E9 /* CMPE277-MapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF3003719177C97005BD9E9 /* Build configuration list for PBXNativeTarget "CMPE277-MapKit" */;
+			buildPhases = (
+				FDF3FFFE19177C97005BD9E9 /* Sources */,
+				FDF3FFFF19177C97005BD9E9 /* Frameworks */,
+				FDF3000019177C97005BD9E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CMPE277-MapKit";
+			productName = "CMPE277-MapKit";
+			productReference = FDF3000219177C97005BD9E9 /* CMPE277-MapKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDF3002519177C97005BD9E9 /* CMPE277-MapKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF3003A19177C97005BD9E9 /* Build configuration list for PBXNativeTarget "CMPE277-MapKitTests" */;
+			buildPhases = (
+				FDF3002219177C97005BD9E9 /* Sources */,
+				FDF3002319177C97005BD9E9 /* Frameworks */,
+				FDF3002419177C97005BD9E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDF3002C19177C97005BD9E9 /* PBXTargetDependency */,
+			);
+			name = "CMPE277-MapKitTests";
+			productName = "CMPE277-MapKitTests";
+			productReference = FDF3002619177C97005BD9E9 /* CMPE277-MapKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF3FFFA19177C97005BD9E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Scanadu, Inc";
+				TargetAttributes = {
+					FDF3002519177C97005BD9E9 = {
+						TestTargetID = FDF3000119177C97005BD9E9;
+					};
+				};
+			};
+			buildConfigurationList = FDF3FFFD19177C97005BD9E9 /* Build configuration list for PBXProject "CMPE277-MapKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDF3FFF919177C97005BD9E9;
+			productRefGroup = FDF3000319177C97005BD9E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF3000119177C97005BD9E9 /* CMPE277-MapKit */,
+				FDF3002519177C97005BD9E9 /* CMPE277-MapKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDF3000019177C97005BD9E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF3002119177C97005BD9E9 /* Images.xcassets in Resources */,
+				FDF3001019177C97005BD9E9 /* InfoPlist.strings in Resources */,
+				FDF3001919177C97005BD9E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF3002419177C97005BD9E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF3003219177C97005BD9E9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF3002219177C97005BD9E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF3003419177C97005BD9E9 /* CMPE277_MapKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDF3FFFE19177C97005BD9E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF3001F19177C97005BD9E9 /* RouteViewController.m in Sources */,
+				FDF3001619177C97005BD9E9 /* AppDelegate.m in Sources */,
+				FDF3001C19177C97005BD9E9 /* MapViewController.m in Sources */,
+				FDF3001219177C97005BD9E9 /* main.m in Sources */,
+				FDF3003F19178020005BD9E9 /* MapPlotViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDF3002C19177C97005BD9E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDF3000119177C97005BD9E9 /* CMPE277-MapKit */;
+			targetProxy = FDF3002B19177C97005BD9E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDF3000E19177C97005BD9E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF3000F19177C97005BD9E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDF3001719177C97005BD9E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF3001819177C97005BD9E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDF3003019177C97005BD9E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDF3003119177C97005BD9E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDF3003519177C97005BD9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDF3003619177C97005BD9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDF3003819177C97005BD9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMPE277-MapKit/CMPE277-MapKit-Prefix.pch";
+				INFOPLIST_FILE = "CMPE277-MapKit/CMPE277-MapKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDF3003919177C97005BD9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMPE277-MapKit/CMPE277-MapKit-Prefix.pch";
+				INFOPLIST_FILE = "CMPE277-MapKit/CMPE277-MapKit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FDF3003B19177C97005BD9E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CMPE277-MapKit.app/CMPE277-MapKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMPE277-MapKit/CMPE277-MapKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CMPE277-MapKitTests/CMPE277-MapKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FDF3003C19177C97005BD9E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CMPE277-MapKit.app/CMPE277-MapKit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CMPE277-MapKit/CMPE277-MapKit-Prefix.pch";
+				INFOPLIST_FILE = "CMPE277-MapKitTests/CMPE277-MapKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF3003719177C97005BD9E9 /* Build configuration list for PBXNativeTarget "CMPE277-MapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF3003819177C97005BD9E9 /* Debug */,
+				FDF3003919177C97005BD9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDF3003A19177C97005BD9E9 /* Build configuration list for PBXNativeTarget "CMPE277-MapKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF3003B19177C97005BD9E9 /* Debug */,
+				FDF3003C19177C97005BD9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDF3FFFD19177C97005BD9E9 /* Build configuration list for PBXProject "CMPE277-MapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF3003519177C97005BD9E9 /* Debug */,
+				FDF3003619177C97005BD9E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDF3FFFA19177C97005BD9E9 /* Project object */;
+}
